@@ -1,0 +1,80 @@
+/* my SKIN
+Made by guoxuan
+*/
+
+:root {
+
+    --shadow-shape: 0 20px 80px;
+    --color-shadow: rgba(223, 138, 27, 0.2);
+    --border-radius: 2.6rem;
+}
+
+a {
+    font-weight: 60;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+/* Your profile image styles */
+
+#author-img {
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+}
+
+/* Floaty card effect */
+
+div.feed__li {
+    box-shadow: var(--shadow-shape) var(--color-shadow);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-shadow);
+    border-radius: var(--border-radius);
+}
+
+/* Images in entries */
+
+.enclosure {
+    box-shadow: var(--shadow-shape) var(--color-shadow);
+    background-color: var(--color-bg);
+    border-radius: var(--border-radius);
+}
+
+/* Three dots separator */
+
+hr {
+    overflow: visible;
+    border: 0;
+    margin: 2em auto;
+    position: relative;
+    content: "";
+    background: var(--color-primary);
+    box-shadow: 3px 4px 0px var(--color-shadow);
+    display: block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+}
+
+hr:before {
+    content: "";
+    background: var(--color-primary);
+    box-shadow: 3px 4px 0px var(--color-shadow);
+    display: block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: absolute;
+    left: -1rem;
+}
+
+hr:after {
+    content: "";
+    background: var(--color-primary);
+    box-shadow: 3px 4px 0px var(--color-shadow);
+    display: block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1rem;
+}
