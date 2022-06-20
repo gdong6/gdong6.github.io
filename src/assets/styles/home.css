@@ -1,0 +1,96 @@
+.home {
+
+}
+.splash {
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.splash-image {
+    width: 100%;
+    height: calc(100vh);
+    object-fit: cover;
+    margin: 0;
+}
+.helloworld {
+    position: absolute;
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+    font-size: 13.7vh;
+    font-family: Arial;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.65),
+                0 0 30px rgba(121, 119, 119, 0.683);
+
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, 0px); }   
+}
+.banner {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    border: 0;
+    padding: 20px 0 20px 0;
+    background: rgb(209,209,109);
+    background: linear-gradient(90deg, rgba(209,209,109,1) 0%, rgba(255,227,161,1) 21%, rgba(252,219,207,1) 44%, rgba(176,204,233,1) 100%);  
+
+    line-height: 1.2;
+    text-align: center;
+
+    transform: translateY(-0px);
+}
+.banner span {
+    vertical-align: middle;
+}
+.banner :hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.text-main {
+    font-size: 9vw;
+    font-family: 'Poppins',Helvetica, Arial, sans-serif;
+    font-weight:600;
+    line-height: 1.1;
+    text-align: center;
+    background-image: linear-gradient(to right, #f06844 0%, #ee4c54 25%, #d45e95 50%, #9c6ca6 75%, #6583c1 100%);
+    background-clip: text;
+    color: transparent;
+    margin: 50px 10% 0px 10%;
+
+    display: flex;
+}
+.card-main {
+    background-color: white;
+    height: calc(80vh);
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 100px;
+    border-radius: 40px;
+    box-shadow: 0 0 60px -40px grey;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-line2 {
+    display: flex;
+    height: calc(80vh);
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 10px;
+}
+.card-line2-left img,
+.card-line2-right img{
+    height: 100%; width: 100%; border-radius: 40px; object-fit:cover;
+}
+
+

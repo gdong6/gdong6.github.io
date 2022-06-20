@@ -1,0 +1,26 @@
+.bottom {
+    display: block;
+    background-color: rgb(243, 243, 247);
+    height: 300px;
+    margin-top: 0px;
+
+    color: rgb(184, 184, 184);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+.bottom-up {
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.bottom-up h5 {
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0;
+}
+.bottom-down {
+    height: 15%;
+    margin: 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

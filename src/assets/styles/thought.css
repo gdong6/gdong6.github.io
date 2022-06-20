@@ -1,0 +1,34 @@
+.thought {
+  padding-top: 0px;
+}
+.splash-thought {
+  width: 200px;
+  display: flex;
+  align-items: center;
+
+  margin-top: 50px;
+  margin-left: 10%;
+
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.splash-thought h1 {
+  background-color: #fa709a;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 80px;
+} 
+.splash-thought img {
+  width: 70px;
+}
+@media (prefers-color-scheme: dark){
+  .thought {
+    background-color: black;
+  }
+}
+
+@media (max-width: 600px) {
+  .splash-thought img {
+    display: none;
+  }
+}
