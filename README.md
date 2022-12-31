@@ -1,3 +1,4 @@
+New page on https://gdong6.github.io/GX-Web/
 # vue3-website
 
 ## Project setup
